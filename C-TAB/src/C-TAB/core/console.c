@@ -20,5 +20,11 @@ void console_clear()
 
 void console_read_input(char* buf, size_t size)
 {
+	printf("--> ");
 	fgets(buf, size, stdin);
+}
+
+void console_print_seperator()
+{
+	printf("----------\n");
 }
