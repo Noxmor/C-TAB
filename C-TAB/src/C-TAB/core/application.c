@@ -25,8 +25,6 @@ void application_run(Application* app)
 
 	application_init(app);
 
-	printf("%sHello, World!", ANSI_COLOR_CYAN);
-
 	char buffer[12];
 
 	while (app->running)
